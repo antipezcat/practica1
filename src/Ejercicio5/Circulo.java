@@ -24,6 +24,10 @@ public class Circulo {
     public Circulo( double radio){
         this.radio = radio;
     }
+
+    Circulo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public double areaCirculo (){
         
         return Math.PI * Math.pow(radio,2);
