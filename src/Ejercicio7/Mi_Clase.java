@@ -23,7 +23,7 @@ de la aplicación.
 */
 public class Mi_Clase {
     
-    static int valor_clase =0;
+    public static int valor_clase =0;
     int valor_instancia;
     
     public Mi_Clase (){

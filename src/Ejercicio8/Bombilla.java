@@ -23,7 +23,8 @@ Bombilla se enciende y se apaga individualmente; pero sólo responde que está e
 si su interruptor particular está activado y además hay luz general.*/
 public class Bombilla {
     public static boolean interruptorGeneral = true;
-    boolean estadoBombilla; //Representa si la bombilla esta encendida o apagada
+    private boolean estadoBombilla; //Representa si la bombilla esta encendida o apagada
+    
     public Bombilla(){
         estadoBombilla = false;
     }
