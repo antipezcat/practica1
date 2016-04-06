@@ -23,14 +23,30 @@ de la aplicación.
 */
 public class Mi_Clase {
     
-    int valor_clase;
+    static int valor_clase =0;
     int valor_instancia;
     
     public Mi_Clase (){
-    
-        valor_clase= 0;
-    
+        valor_clase++; 
     }
+
+    public static int getValor_clase() {
+        return valor_clase;
+    }
+
+    public static void setValor_clase(int valor_clase) {
+        Mi_Clase.valor_clase = valor_clase;
+    }
+
+    public int getValor_instancia() {
+        return valor_instancia;
+    }
+
+    public void setValor_instancia(int valor_instancia) {
+        this.valor_instancia = valor_instancia;
+    }
+    
+    
     
     
     
